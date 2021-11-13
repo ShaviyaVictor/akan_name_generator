@@ -1,0 +1,77 @@
+/*    heading font  -font-family: 'Metamorphous', cursive;  */
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+/*    paragraph font  -font-family: 'Kreon', serif;   */
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+/**/
+/**/
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),  rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1578677103277-409d1213df61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1086&q=80);
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+h1{
+  font-family: 'Metamorphous', cursive;
+  font-size: 3.5rem;
+}
+/*    start of header styles    */
+header nav .container-fluid{
+  background-color: #ECD896;
+  margin-top: -0.47rem;
+  margin-bottom: -0.47rem;
+}
+header nav img{
+  width: 15rem;
+}
+/*    end of header styles    */
+
+
+
+/*    start of footer styles    */
+footer{
+  background-color: #ECD896;
+  text-align: center;
+  padding: 3rem;
+}
+.social li{
+  display: inline-block;
+  margin: 1rem;
+}
+.social li a i{
+  color: #198754;
+  border-color: #198754;
+  border: solid 0.15rem #198754;
+  border-radius: 50%;
+  width: rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+  transition: .3s;
+}
+.social li a i:hover{
+  color: #fff;
+  background-color: #198754;
+}
+footer .row .copyright{
+  padding-top: 3rem;
+}
+@media (min-width: 350px){
+  h1{
+    font-size: 2rem;
+  }
+  .social li a i{
+    border: solid 0.15rem #198754;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.75rem;
+    transition: .3s;
+  }
+}
+/*    end of footer styles    */
