@@ -25,7 +25,7 @@ header nav img{
   width: 15rem;
 }
 /*    end of header styles    */
-/*    start of main page styles    */
+/*    start of introductory section styles    */
 section.introduction{
   background-color: rgba(236, 216, 150, 0.7);
   margin: 1rem 10rem;
@@ -42,7 +42,25 @@ p.intro{
 section.introduction p i{
   color: #322E6F;
 }
-/*    end of main page styles    */
+@media (min-width: 350px){
+  section.introduction{
+    background-color: rgba(236, 216, 150, 0.7);
+    margin: 1rem 1rem;
+    text-align: center;
+    border-radius: 7px;
+    padding: 0.1rem;
+    color: #322E6F;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  p.intro{
+    font-weight: 400;
+    color: black;
+    font-size: 1rem;
+  }
+}
+/*    end of introductory section styles    */
 /**/
 /**/
 /**/
@@ -90,6 +108,12 @@ footer .row .copyright{
     line-height: 1.4rem;
     font-size: 0.75rem;
     transition: .3s;
+  }
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),  rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1578677103277-409d1213df61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1086&q=80);
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat-y;
   }
 }
 @media (min-width: 480.9px){
