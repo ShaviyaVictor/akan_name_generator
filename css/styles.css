@@ -151,6 +151,9 @@ section.content .btn-outline-success{
 }
 /*    end of content section styles    */
 /*    start of conclusion styles    */
+section.conclusion{
+  margin: 1rem 10rem;
+}
 section.conclusion h2{
   font-family: 'Metamorphous', cursive;
   font-size: 1.5rem;
@@ -159,6 +162,24 @@ section.conclusion p, .accordion-body{
   font-family: 'Kreon', serif;
   font-size: 1.3rem;
 }
+
+@media (min-width: 350px){
+  section.conclusion{
+    margin: 1rem 2.5rem;
+  }
+  section.conclusion p, .accordion-body{
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768.9px){
+  section.conclusion{
+    margin: 1rem 10rem;
+  }
+  section.conclusion p, .accordion-body{
+    font-size: 1.3rem;
+  }
+}
+
 /*    end of conclusion section styles    */
 /*    start of footer styles    */
 footer{
