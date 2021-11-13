@@ -173,7 +173,7 @@ section.conclusion p, .accordion-body{
 }
 @media (min-width: 768.9px){
   section.conclusion{
-    margin: 1rem 10rem;
+    margin: 1rem 9rem 3rem 9.5rem;
   }
   section.conclusion p, .accordion-body{
     font-size: 1.3rem;
