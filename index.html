@@ -54,19 +54,16 @@
             <div class="row main.one">
               <div class="mb-3 col-7">
                 <label for="exampleFormControlInput1" class="form-label">Date of Birth:</label>
-                <input type="date" class="form-control" id="exampleFormControlInput1" name="dateOfBirth" value="1995-08-20">
+                <input type="date" class="form-control" id="exampleFormControlInput1" name="dateOfBirth" value="yyyy-mm-dd" max="2021-11-13" required>
               </div>
             </div>
             <div class="row main.two">
               <div class="col-7">
                 <label for="exampleDataList" class="form-label">Which Gender?</label>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Either...">
                 <datalist id="datalistOptions">
-                  <option value="San Francisco">
-                  <option value="New York">
-                  <option value="Seattle">
-                  <option value="Los Angeles">
-                  <option value="Chicago">
+                  <option value="Masculine">
+                  <option value="Feminine">
                 </datalist>
               </div>
               <div class="col-5">
