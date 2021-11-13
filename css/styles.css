@@ -91,11 +91,75 @@ section.content .row .right{
   border-radius: 7px;
   padding: 1rem;
 }
+section.content label.date, section.content label.gender{
+  font-family: 'Kreon', serif;
+  font-size: 1.2rem;
+} 
+section.content .btn-outline-success{
+  margin-top: 2.22rem;
+  margin-left: 2rem;
+}
+@media (min-width: 350px){
+  section.content .row .left{
+    margin: 1rem;
+    padding: 1rem;
+  }
+  section.content .row .right{
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 768.9px){
+  section.content .row .left{
+    margin: 1rem 0.6rem 1rem 2.6rem;
+    padding: 1rem;
+  }
+  section.content .row .right{
+    margin: 1rem 1rem 1rem 2rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 991.9px){
+  section.content .row .left{
+    margin: 1rem 1rem 1rem 4rem;
+    padding: 1rem;
+  }
+  section.content .row .right{
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1199.9px){
+  section.content .row .left{
+    margin: 1rem 0.7rem 1rem 8rem;
+    padding: 1rem;
+  }
+  section.content .row .right{
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1300.9px){
+  section.content .row .left{
+    margin: 1rem 5rem 1rem 4rem;
+    padding: 1rem;
+  }
+  section.content .row .right{
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+  }
+}
 /*    end of content section styles    */
-/**/
-/**/
-
-
+/*    start of conclusion styles    */
+section.conclusion h2{
+  font-family: 'Metamorphous', cursive;
+  font-size: 1.5rem;
+}
+section.conclusion p, .accordion-body{
+  font-family: 'Kreon', serif;
+  font-size: 1.3rem;
+}
+/*    end of conclusion section styles    */
 /*    start of footer styles    */
 footer{
   background-color: #ECD896;

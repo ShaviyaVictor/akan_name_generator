@@ -50,17 +50,17 @@
     <section class="content">
       <div class="container second">
         <div class="row main">
-          <div class="col-7 left">
+          <div class="col-11 col-md-6 col-lg-7 col-xl-6 col-xxl-5 left">
             <div class="row main.one justify-content-center">
               <div class="mb-3 col-7">
-                <label for="exampleFormControlInput1" class="form-label">Date of Birth:</label>
+                <label for="exampleFormControlInput1" class="form-label date">Date of Birth:</label>
                 <input type="date" class="form-control" id="exampleFormControlInput1" name="dateOfBirth" value="yyyy-mm-dd" max="2021-11-13" required>
               </div>
             </div>
-            <div class="row main.two">
+            <div class="row">
               <div class="col-7">
-                <label for="exampleDataList" class="form-label">Which Gender?</label>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Either...">
+                <label for="exampleDataList" class="form-label gender">Which Gender?</label>
+                <input class="form-control gender" list="datalistOptions" id="exampleDataList" placeholder="Either...">
                 <datalist id="datalistOptions">
                   <option value="Masculine">
                   <option value="Feminine">
@@ -71,17 +71,68 @@
               </div>             
             </div>
           </div>
-          <div class="col-4 right">
-
-          </div>
+          <div class="col-11 col-md-4 col-lg-3 col-xl-3 col-xxl-5 right"></div>
         </div>
       </div>
     </section>
     <!--    end of main section   -->
     <!--    start of aside section   -->
-    <aside>
-
-    </aside>
+    <section class="conclusion">
+      <div class="container">
+        <div class="row">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  About the application:
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ol>
+                    <li>Fill in the date you were born.</li>
+                    <li>Fill in your gender.</li>
+                    <li>Submit the inputs.</li>
+                  </ol>
+                  <p>
+                    Upon submission, the application shall generate an output containing the day of the week within which you were born together with your Ghanaian Akan name.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Akan name???
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br><br>
+                So, what if you were Ghanaian?<br><br>
+                What would your name be?<br><br>
+                By now you should be knowing <i class="far fa-smile"></i>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Note:
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><blockquote class="blockquote">
+                  <p>
+                    Learning a foreign language, and the culture that goes with it, is one of the most useful things we can do to broaden the empathy and imaginative sympathy and cultural outlook of children.
+                  </p>
+                </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--    end of aside section   -->
     <!--    start of footer section   -->
     <footer>
