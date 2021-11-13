@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 /*    paragraph font  -font-family: 'Kreon', serif;   */
 @import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
-/**/
-/**/
 body{
   margin: 0;
   height: 100%;
@@ -27,7 +25,27 @@ header nav img{
   width: 15rem;
 }
 /*    end of header styles    */
-
+/*    start of main page styles    */
+section.introduction{
+  background-color: rgba(236, 216, 150, 0.7);
+  margin: 1rem 10rem;
+  text-align: center;
+  border-radius: 7px;
+  padding: 1rem;
+  color: #322E6F;
+}
+p.intro{
+  font-weight: 800;
+  color: black;
+  font-size: 1.3rem;
+}
+section.introduction p i{
+  color: #322E6F;
+}
+/*    end of main page styles    */
+/**/
+/**/
+/**/
 
 
 /*    start of footer styles    */
