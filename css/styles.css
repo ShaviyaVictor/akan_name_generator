@@ -45,7 +45,7 @@ footer{
   border-color: #198754;
   border: solid 0.15rem #198754;
   border-radius: 50%;
-  width: rem;
+  width: 3rem;
   height: 3rem;
   text-align: center;
   line-height: 2.8rem;
@@ -71,6 +71,36 @@ footer .row .copyright{
     text-align: center;
     line-height: 1.4rem;
     font-size: 0.75rem;
+    transition: .3s;
+  }
+}
+@media (min-width: 480.9px){
+  h1{
+    font-size: 3rem;
+  }
+  .social li a i{
+    border: solid 0.15rem #198754;
+    border-radius: 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    text-align: center;
+    line-height: 2.1rem;
+    font-size: 1.125rem;
+    transition: .3s;
+  }
+}
+@media (min-width: 768.9px){
+  h1{
+    font-size: 3.5rem;
+  }
+  .social li a i{
+    border: solid 0.15rem #198754;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 2.8rem;
+    font-size: 1.5rem;
     transition: .3s;
   }
 }
