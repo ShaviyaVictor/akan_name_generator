@@ -20,5 +20,9 @@ function akanNameGenerate(event){
 
   let dayNumber = new Date(date).getDay()
 
+  if (gender == ' ' || date == ' '){
+          document.getElementById("output").innerHTML = ('Oops! Blockage Error! Provide both the Date of Birth as well as the Gender.')
+  }
+
 
 }
