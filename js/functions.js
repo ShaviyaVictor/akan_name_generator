@@ -32,5 +32,7 @@ function akanNameGenerate(event){
           document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber] and your Akan name is ${feminineNames[dayNumber]}')
   }
 
-
+  else {
+          document.getElementById("output").innerHTML = ('Oops! Check your input value(s).')
+  }
 }
