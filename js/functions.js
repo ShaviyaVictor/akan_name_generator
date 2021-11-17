@@ -14,9 +14,9 @@ let daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thurdsday', 'Frid
 
 
 function akanNameGenerate(event){
-    event.preventDefault();
-  let date = document.getElementById('exampleFormControlInput1').value;
-  let gender = document.getElementById('exampleDataList').value;
+    event.preventDefault()
+  let date = document.getElementById('date').value;
+  let gender = document.getElementById('gender').value;
 
   let dayNumber = new Date(date).getDay()
 
@@ -25,11 +25,11 @@ function akanNameGenerate(event){
   }
 
   else if (gender == 'Masculine'){
-          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber] and your Akan name is ${masculineNames[dayNumber]}')
+          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${masculineNames[dayNumber]}')
   }
 
   else if (gender == 'Feminine'){
-          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber] and your Akan name is ${feminineNames[dayNumber]}')
+          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${feminineNames[dayNumber]}')
   }
 
   else {
