@@ -13,3 +13,12 @@ let feminineNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 let daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thurdsday', 'Friday', 'Saturday']
 
 
+function akanNameGenerate(event){
+    event.preventDefault();
+  let date = document.getElementById('exampleFormControlInput1').value;
+  let gender = document.getElementById('exampleDataList').value;
+
+  let dayNumber = new Date(date).getDay()
+
+
+}
