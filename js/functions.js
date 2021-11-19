@@ -23,7 +23,7 @@ function akanNameGenerate(event){
   if (gender == ' ' || date == ' '){
           document.getElementById("output").innerHTML = (`Oops! Blockage Error! Provide both the Date of Birth as well as the Gender.`)
   }
-
+//      the backticks are so crucial in displaying an output that contains a function with variables in it read on Template Literals 
   else if (gender == 'Masculine'){
           document.getElementById("output").innerHTML = (`Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${masculineNames[dayNumber]}`)
   }
