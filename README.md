@@ -1,4 +1,5 @@
 # AKAN NAME GENERATOR
+![Akan_Name_Generator_Screenshot](https://github.com/ShaviyaVictor/akan_name_generator/blob/main/images/Screenshot%20from%202021-11-19%2013-41-37.png)
 ## Project Description
 The project is all about building *a web application that takes a user's **birthday** and **calculates the day of the week they were born** and then depending on their gender **outputs their Akan Name***.    
 Whereby, Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.    
