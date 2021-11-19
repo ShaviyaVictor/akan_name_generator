@@ -21,15 +21,15 @@ function akanNameGenerate(event){
   let dayNumber = new Date(date).getDay()
 
   if (gender == ' ' || date == ' '){
-          document.getElementById("output").innerHTML = ('Oops! Blockage Error! Provide both the Date of Birth as well as the Gender.')
+          document.getElementById("output").innerHTML = (`Oops! Blockage Error! Provide both the Date of Birth as well as the Gender.`)
   }
 
   else if (gender == 'Masculine'){
-          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${masculineNames[dayNumber]}')
+          document.getElementById("output").innerHTML = (`Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${masculineNames[dayNumber]}`)
   }
 
   else if (gender == 'Feminine'){
-          document.getElementById("output").innerHTML = ('Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${feminineNames[dayNumber]}')
+          document.getElementById("output").innerHTML = (`Yey! You were born on ${daysOfWeek[dayNumber]} and your Akan name is ${feminineNames[dayNumber]}`)
   }
 
   else {
